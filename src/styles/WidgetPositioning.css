@@ -1,0 +1,68 @@
+/* Global CSS to fix positioning of chat widget and go-to-top button */
+
+/* Tawk.to Chat Widget Positioning */
+#tawk-bubble-container,
+.tawk-flex-center,
+.tawk-chat-widget {
+  bottom: 150px !important;
+  right: 20px !important;
+  z-index: 998 !important;
+}
+
+/* Target all Tawk.to related elements */
+div[id*="tawk"],
+iframe[src*="tawk.to"] {
+  bottom: 150px !important;
+  right: 20px !important;
+  z-index: 998 !important;
+}
+
+/* Ensure the main tawk container is positioned correctly */
+#tawk_5c808d8b361b3372892e9115 {
+  bottom: 150px !important;
+  right: 20px !important;
+  z-index: 998 !important;
+}
+
+/* Go to Top Button positioning */
+.go-to-top-btn {
+  position: fixed !important;
+  bottom: 5rem !important;
+  right: 12rem !important;
+  z-index: 1000 !important;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  /* On mobile, stack them vertically */
+  #tawk-bubble-container,
+  .tawk-flex-center,
+  .tawk-chat-widget,
+  div[id*="tawk"],
+  iframe[src*="tawk.to"] {
+    bottom: 120px !important;
+    right: 20px !important;
+  }
+  
+  .go-to-top-btn {
+    bottom: 2rem !important;
+    right: 2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* On very small screens, position them even closer */
+  #tawk-bubble-container,
+  .tawk-flex-center,
+  .tawk-chat-widget,
+  div[id*="tawk"],
+  iframe[src*="tawk.to"] {
+    bottom: 100px !important;
+    right: 15px !important;
+  }
+  
+  .go-to-top-btn {
+    bottom: 1.5rem !important;
+    right: 1.5rem !important;
+  }
+}
