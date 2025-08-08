@@ -6,7 +6,7 @@
 
 > A modern single-page application that powers an online cashew nuts shop ‑ built with React, Auth0, and Netlify.
 
-[🌐 **Live Demo**](https://sawaikarcashewstore.netlify.app) · [📺 Video Walk-through](#) · [🐞 Report Bug](https://github.com/your-fork/issues)
+[🌐 **Live Demo**](https://sawaikar-s-cashew-store.vercel.app/) · [📺 Video Walk-through](#) · [🐞 Report Bug](https://github.com/your-fork/issues)
 
 ---
 
