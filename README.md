@@ -42,7 +42,7 @@
 ## 🖼️ Screenshots
 | Home | Product Page | Cart |
 | ---- | ------------ | ---- |
-| ![Home](Assets/screens/Home(3).png) | ![Product](Assets/screens/Products.png) | ![Cart](Assets/screens/Carts.png) |
+| ![Home](Assets/Home(3).png) | ![Product](Assets/Products.png) | ![Cart](Assets/Carts.png) |
 
 > **Note:** Images are stored in `Assets/screens/`. Replace with yours if cloning.
 
